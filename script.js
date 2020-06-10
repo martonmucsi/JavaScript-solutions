@@ -42,3 +42,7 @@ let printValuesLoop = (array) => {
         console.log(number)
     });
 }
+
+let myArray = [11, 21, 31, 2, 12, 23]
+
+printValuesLoop(myArray)
