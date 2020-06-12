@@ -18,3 +18,14 @@ $("#third").click(() => {
     $("#second").css("background-color", "pink");
     $("#third").css("background-color", "coral");
 })
+
+// Next setInterval, firth exercise
+
+$("#fourth").click(() => {
+    let value = $("input:text").val()
+    if (value === "") {
+        $("#fourth").css("background-color", "blue")
+    } else {
+        $("#fourth").css("background-color", value)  
+    }    
+})
