@@ -13,9 +13,11 @@
 
 .arrow {
     height: 20%;
-    rotate: 0.5turn;
     border: solid 1px black;
+}
 
+#previous {
+    rotate: 0.5turn;
 }
 
 
