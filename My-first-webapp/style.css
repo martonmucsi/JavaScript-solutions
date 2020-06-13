@@ -1,0 +1,29 @@
+#image-container {
+    display: block;
+    height: 500px;
+    border: solid 5px black;
+}
+
+.photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+
+.arrow {
+    height: 20%;
+    rotate: 0.5turn;
+    border: solid 1px black;
+
+}
+
+
+
+/* good for thumbnails:
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  } */
